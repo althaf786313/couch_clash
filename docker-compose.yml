@@ -1,0 +1,16 @@
+services:
+  couch-clash:
+    build: .
+    image: couch-clash:latest
+    container_name: couch-clash
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/api/health',timeout=3).read()"]
+      interval: 30s
+      timeout: 5s
+      start_period: 5s
+      retries: 3

@@ -1,0 +1,4 @@
+# Couch Clash has NO third-party runtime dependencies.
+# Python 3.9+ standard library only; the QR generator (segno) is vendored
+# in vendor/segno/ with its licence at vendor/SEGNO_LICENSE.txt.
+# This file exists so Python buildpacks (Heroku/Railway) detect the project.

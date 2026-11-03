@@ -1,0 +1,12 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+.git/
+.gitignore
+*.zip
+*.log
+tests/
+PUBLIC-LINK.txt
+PLAY-ON-PHONE.png
+start_public.sh
+server.log

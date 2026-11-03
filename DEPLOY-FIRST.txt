@@ -1,0 +1,9 @@
+COUCH CLASH deploy bundle (v5.5)
+
+READ PERMANENT-LINK.md FIRST — it explains why sandbox links expire and
+gives the 5-minute Render steps for a link that never dies.
+
+Full game (TWO PHONES): ./deploy.sh or Deploy to Render (DEPLOY.md).
+One file: drag CouchClash-static-site.zip into https://app.netlify.com/drop
+  -> for TWO PHONES tap "RELAY" and paste a running server URL.
+Current (temporary) sandbox relay URL: see PUBLIC-LINK.txt.
